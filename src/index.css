@@ -1,0 +1,13 @@
+@layer base {
+  html, body {
+    @apply overflow-x-hidden; 
+    width: 100vw;
+  }
+}
+
+/* Custom breakpoint for very small devices like iPhone SE */
+@media (max-width: 380px) {
+  .font-serif {
+    letter-spacing: -0.02em; 
+  }
+}
